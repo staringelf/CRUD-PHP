@@ -4,14 +4,9 @@
     session_start();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Home | CRUD</title>
-</head>
 <body>
 <?php
-  include_once "flash.php";
+  require_once "flash.php";
   echo '<table border="2">'."\n";
   $stmt = $pdo->query("SELECT name, email, password, user_id FROM Users");
   while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {

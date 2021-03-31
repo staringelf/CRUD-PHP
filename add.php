@@ -15,8 +15,8 @@
     header('Location: index.php');
     return;
   }
-
 ?>
+
 <body>
   <h2> Register </h2>
   <p><a href="index.php">See Index</a></p>
@@ -35,6 +35,3 @@
   </form>
 </body>
 </html>
-<?php
-  
-?>

@@ -56,6 +56,3 @@
   </form>
 </body>
 </html>
-<?php
-  
-?>

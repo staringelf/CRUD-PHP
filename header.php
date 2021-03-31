@@ -7,7 +7,3 @@
   <title>CRUD</title>
   <link rel="stylesheet" href="decor.css">
 </head>
-<body>
-  
-</body>
-</html>
